@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+background-color: rgb(209, 236, 209);
+
+}
+
+header{
+font-family:'Arima', cursive;
+display: flex;
+justify-content: space-between;
+background-color: rgb(51, 99, 51);
+color: rgb(255, 255, 255);
+
+}
+
+.log{
+border-radius: 100%;
+width: 5%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
+
+}
+
+li a:hover, li a:active{
+background-color: rgb(19, 43, 21);
+border-radius: 8px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+   
+}
+
+.ubi{
+color: white;
+
+}
+
+p{
+display: flex;
+text-align: center;
+font-size: 30px;
+margin: 20px;
+}
+
+li{
+    margin: 30px;
+    font-family: calibri;
+
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.cartimg{
+  width: 500px;
+  height: 400px;
+  padding:10px;
+  border-radius: 30%;
+}
+ 
+.cartext{
+    font-size: 50px;
+    padding: 100px;
+    margin: 100px;
+}
+
+.insu{
+    width: 500px;
+    height: 400px;
+    padding:10px;
+    border-radius: 30%;
+}
+
+.parraf{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
